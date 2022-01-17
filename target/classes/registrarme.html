@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="public/CSS/registrarme.css">
+	<title>Registrarme</title> 
+    <meta charset="utf-8">
+</head>
+<body>
+	<h1 id="titulo">REGISTRAR DATOS</h1>
+    <br><br>
+	<form id="formLogin">
+        <label for="nombres">NOMBRE(S):</label>
+        <br>
+        <input type="text" name="nombres" id="nombres" >
+        <br>
+        <label for="apellidos">APELLIDOS:</label>
+        <br>
+        <input type="text" name="apellidos" id="apellidos">
+        <br>
+        <label for="correo">CORREO ELECTRÓNICO:</label>
+        <br>
+        <input type="email" name="correo" id="correo">
+        <br>
+        <label for="clave">CONTRASEÑA:</label>
+        <br>
+        <input type="password" name="clave" id="clave">
+        <br>
+        <label for="edad">EDAD:</label>
+        <br>
+        <input type="number" name="edad" id="edad">
+    </form>
+    <br>
+    <p id="msg"></p>
+    <br>
+    <button type="button" id="registrarme">REGISTRARME</button>
+    <br><br>
+    <p>¿Ya tienes una cuenta? Accede </p><button type="button" id="acceder">aquí</button>
+    <script src="public/javascript/registrarme.js"></script>
+</body>

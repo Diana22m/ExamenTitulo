@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="public/CSS/login.css">
+	<title>Acceder</title> 
+    <meta charset="utf-8">
+</head>
+<body>
+	<h1 id="titulo">Bienvenido</h1>
+    <br><br>
+	<form id="formLogin">
+        <label for="correo">CORREO ELECTRÓNICO:</label>
+        <br>
+        <input type="email" name="correo" id="correo">
+        <br>
+        <label for="clave">CONTRASEÑA:</label>
+        <br>
+        <input type="password" name="clave" id="clave">
+    </form>
+    <br>
+    <p id="msg"></p>
+    <br>
+    <button type="button" id="acceder">ACCEDER</button>
+    <br><br>
+    <p>¿No tienes una cuenta? Haz una </p><button type="button" id="registrar">aquí</button>
+    <script src="public/javascript/login.js"></script>
+</body>
