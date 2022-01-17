@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="public/CSS/nuevaTarea.css">
+	<title>Agregar una nueva tarea</title> 
+    <meta charset="utf-8">
+</head>
+<body>
+	<h1>REGISTRAR NUEVA TAREA</h1>
+    <br><br>
+	<form id="formLogin">
+        <label for="titulo">TITULO:</label>
+        <br>
+        <input type="text" name="titulo" id="titulo" >
+        <br>
+        <label for="contenido">CONTENIDO:</label>
+        <br>
+        <textarea cols="40" rows="5" name="contenido" id="contenido"></textarea>
+        <br>
+        <label for="imagen">IMAGEN:</label>
+        <br>
+        <input id="imagen" type="file" accept="image/*">
+        <br>
+        <img id="img" src="#" alt="your image" width="250" height="250">
+    </form>
+    <p id="msg"></p>
+    <br>
+    <button type="button" id="cancelar">CANCELAR</button>
+    <button type="button" id="agregar">AGREGAR TAREA</button>
+    <br><br>
+    <script src="public/javascript/nuevaTarea.js"></script>
+</body>

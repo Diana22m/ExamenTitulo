@@ -1,0 +1,52 @@
+body{
+    background-color: #1f00cc;
+    text-align: center;
+}
+h1{
+    color: rgb(255, 255, 255);
+    background-color:#1027a8e7;
+    font-size: 40px;
+}
+form{
+    border: solid #ffd9b3;
+    background-color: #0030b3;
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+}
+label{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    width: 90%;
+    text-align: center;
+    font-size: 20px;
+}
+button{
+    background-color: #4133ff;
+    width: auto;
+    height: 20%;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+button#acceder:hover{
+    background-color: #4d2600;
+    border: solid #ffd9b3;
+    border-radius: 20px;
+}
+p{
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+}
+#registrar{
+    background-color: #4d270000;
+}
+#registrar:hover{
+    text-decoration: underline;
+}
